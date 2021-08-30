@@ -14,7 +14,7 @@ import {
   isMediatorMode,
   FOREIGN_AMB_ABI,
   HOME_AMB_ABI
-} from '../../../../../Desktop/tokenbridge-9dfb0510c451248ebeb2645b9e3f76cd0e976895/commons'
+} from '../../commons'
 import {
   getMaxPerTxLimit,
   getMinPerTxLimit,

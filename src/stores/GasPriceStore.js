@@ -1,6 +1,6 @@
 import { observable, computed } from 'mobx'
 import { toHex } from 'web3-utils'
-import { gasPriceFromSupplier } from '../../../../../Desktop/tokenbridge-9dfb0510c451248ebeb2645b9e3f76cd0e976895/commons'
+import { gasPriceFromSupplier } from '../../commons'
 
 const {
   REACT_APP_COMMON_HOME_GAS_PRICE_FALLBACK,

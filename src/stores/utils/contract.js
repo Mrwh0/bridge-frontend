@@ -1,7 +1,7 @@
 import BN from 'bignumber.js'
 import { fromDecimals } from './decimals'
 import { fromWei } from 'web3-utils'
-import { getValidatorList as commonGetValidatorList, getPastEvents as commonGetPastEvents } from '../../../../../../Desktop/tokenbridge-9dfb0510c451248ebeb2645b9e3f76cd0e976895/commons'
+import { getValidatorList as commonGetValidatorList, getPastEvents as commonGetPastEvents } from '../../../commons'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 

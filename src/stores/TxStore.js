@@ -1,7 +1,7 @@
 import { action, observable } from 'mobx'
 import { estimateGas } from './utils/web3'
 import { addPendingTransaction, removePendingTransaction } from './utils/testUtils'
-import { getUnit } from '../../../../../Desktop/tokenbridge-9dfb0510c451248ebeb2645b9e3f76cd0e976895/commons'
+import { getUnit } from '../../commons'
 import yn from '../components/utils/yn'
 
 class TxStore {

@@ -5,7 +5,7 @@ import ForeignStore from './ForeignStore'
 import AlertStore from './AlertStore'
 import GasPriceStore from './GasPriceStore'
 import TxStore from './TxStore'
-import { decodeBridgeMode, HOME_ERC_TO_ERC_ABI } from '../../../../../Desktop/tokenbridge-9dfb0510c451248ebeb2645b9e3f76cd0e976895/commons'
+import { decodeBridgeMode, HOME_ERC_TO_ERC_ABI } from '../../commons'
 import { getWeb3Instance } from './utils/web3'
 
 class RootStore {

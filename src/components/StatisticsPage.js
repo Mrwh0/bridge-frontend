@@ -1,6 +1,6 @@
 import React from 'react'
 import yn from './utils/yn'
-import { BRIDGE_MODES, isErcToErcMode } from '../../../../../Desktop/tokenbridge-9dfb0510c451248ebeb2645b9e3f76cd0e976895/commons'
+import { BRIDGE_MODES, isErcToErcMode } from '../../commons'
 import { BridgeStatistics } from './index'
 import { Redirect } from 'react-router'
 import { TransactionsStatistics } from './TransactionsStatistics'

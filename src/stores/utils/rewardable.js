@@ -1,5 +1,5 @@
 import BN from 'bignumber.js'
-import { FEE_MANAGER_MODE } from '../../../../../../Desktop/tokenbridge-9dfb0510c451248ebeb2645b9e3f76cd0e976895/commons'
+import { FEE_MANAGER_MODE } from '../../../commons'
 
 export const validFee = fee => {
   const zeroBN = new BN(0)
